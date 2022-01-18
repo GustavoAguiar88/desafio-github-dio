@@ -1,0 +1,29 @@
+
+ARRAYS:
+É uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo.
+Índice -> é a posição de um determinado valor de um array, sempre começando do zero.
+Array Multidimensional -> pode possuir mais de uma dimensão.
+
+CLASSE ARRAY:
+É uma classe do C# que oferece diversos métodos que auxiliam a trabalhar com arrays.
+
+COLEÇÃO GENÉRICA:
+É útil quando cada item da coleção tem o mesmo tipo de dados. Uma coleção genérica impõe tipagem forte, permitindo
+que apenas o tipo de dados desejado seja alterado.
+Existem classes de coleções que agrupam valores, e são padronizadas para as operações mais comuns, como: 
+- Ordenação.
+- Obter valor por índice.
+- Obter valor com expressões.
+
+COLEÇÃO ESPECÍFICA:
+Implementam regras para sua ordem de acesso e manipulação de seus elementos, são eles:
+- Queue (Fila): obedece a ordem FIFO.
+- Stack (Pilha): obedece a ordem LIFO.
+
+DICIONÁRIOS:
+É uma coleção de chave e valor, permitindo que você recupere rapidamente seus itens baseado em sua chave. 
+O dicionário armazena a sua chave em Hash.
+
+OPERAÇÕES LINQ:
+O Language Integrated Query é uma maneira de utilizar uma sintaxe de consulta padronizada para coleções de objetos.
+

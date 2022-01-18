@@ -1,0 +1,61 @@
+
+.NET:
+É um framework criado pela Microsoft que permite a comunicação entre várias linguagens que tem uma infraestrutuda comum (CLI), 
+entre elas o Visual Basic, C++, F#, C#.
+É uma infraestrutura para desenvolvimento de softwares criada pela Microsoft.
+
+C#:
+Uma linguagem orientada a objetos fortemente tipada. A sintaxe orientada a objetos foi baseada no C++ e possui influencias 
+de outras linguagens de programação como Objeto Pascal e Java.
+Suporta os conceitos de encapsulamento, herança e polimorfismo (OO).
+
+SOLUÇÃO:
+É um container para organizar os projetos relacionados.
+
+GERENCIADOR DE SOLUÇÕES:
+Podemos adicionar mais projetos, classes ao projeto, diretórios e mexer no projeto de forma geral.
+
+NAMESPACE:
+São usados para organizar classes. Para usar uma classe de outro namespace, colocamos using no começo do código.
+
+CLASSE:
+Pode contar campos, propriedades, métodos e eventos dentro dela que são denominados membros.
+
+INTERFACE:
+É como uma base que serve de molde para várias classes. Uma classe que implementa uma interface deve implementar todos os membos.
+
+ENUM:
+Declara um conjunto de constantes nomeadas que começam do 0 e aumentam de 1 em 1.
+
+DEBUGGING:
+A depuração pode ser feita colocando um breakpoint no canto esquerdo do código ou apertando F9 e executando ele.
+O código vai parar onde foi colocado o breakpoint e então o código poderá ser inspecionado.
+
+POO (Programação Orientada a Objetos):
+Corresponde a uma técnica de programação para um fim específico.
+- Paradigma de programação -> é diferente de linguagem de programação.
+Uma linguagem de programação implementa um ou mais paradigmas.
+Um paradigma é um método de técnicas, estruturas e formas de solucionar um problema.
+- Abstração -> abstrair um objeto do mundo real para um contexto específico, considerando apenas os atributos importantes.
+- Encapsulamento -> serve para proteger uma classe e definir limites para alteração de suas propriedades.
+Serve para ocultar seu comportamento e expor somente o necessário.
+- Herança -> permite reutilizar atributos, métodos e comportamentos de uma classe em outras classes.
+Serve para agrupar objetos que são do mesmo tipo, porém com características diferentes.
+Polimorfismo -> significa "muitas formas". Podemos sobrescrever métodos das classes para que se comportem de maneira
+diferente e ter sua própria implementação.
+
+CLASSE ABSTRATA:
+Tem como objetivo ser exclusivamente um modelo para ser herdado, portanto não pode ser instanciada.
+
+CLASSE SELADA:
+Tem como objetivo de impedir que outras classes façam uma herança dela, nenhuma classe pode ser derivada.
+
+CLASSE OBJECT:
+É a mãe de todas na hierarquia do .NET. Tem como objetivo prover serviços de baixo nível para suas classes filhas.
+
+INTERFACES:
+É um contrato que pode ser implementado por uma classe. É como se fosse uma classe abstrata, podendo definir métodos
+abstratos para serem implementados. Uma interface não pode ser instanciada.
+
+ARQUIVO:
+O C# nos apresenta algumas classes estáticas que facilitam o trabalho com arquivos, dentre elas: File / Directory / Path.

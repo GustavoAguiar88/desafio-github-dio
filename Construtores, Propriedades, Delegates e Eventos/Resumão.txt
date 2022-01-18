@@ -1,0 +1,25 @@
+
+CONSTRUTORES:
+É um método especial, que contém o mesmo nome do seu tipo de classe e tem como objetivo de definir valores padrão, limitar
+uma instância e facilitar a instanciação de um objeto.
+- Um construtor não possui um retorno.
+- Um construtor padrão é sempre definido quando não declaramos nenhum para sua classe.
+- Uma classe pode ter mais de um construtor.
+
+GET E SET:
+Serve para que você possa atribuir um valor em uma variável de maneiracontrolada e com validações.
+Get -> obter o valor dessa propriedade.
+Set -> Atribuir um valor para essa propriedade.
+
+MODIFICADORES:
+Readonly -> bloqueia um campo contra alterações que não sejam em sua inicialização ou pelo próprio construtor.
+Constante -> representa um valor que somente pode ser atribuido no momento de sua inicialização e não pode ser modificado
+posteriormente.
+
+DELEGATES:
+É uma maneira de passar um método como referência, podendo ser usado como um callback, aceitando qualquer método que
+contenha a mesma assinatura.
+
+EVENTOS:
+É um mecanismo de comunicação entre objetos, onde existe um publisher, que realiza o evento e o subscriber, que se
+inscreve em um evento.

@@ -1,0 +1,25 @@
+
+GIT: 
+Foi criado em 2005 pelo Linus Torvalds e é um sistema de versionamento de código distribuído.
+
+WINDONS:			LINUX:
+- cd (entrar)			- cd (entrar)
+- dir (todas pastas)		- ls (todas pastas)
+- mkdir (criar pasta)		- mkdir
+- del/rmdir (deletar)		- rm - rf (deletar)
+- cls (limpar)			- clear (limpar)
+- tab (auto completar)
+ 
+SHA1:
+Significa Secure Hash Algorithm: é um conjunto de funções Hash criptográficas projetadas pela NSA (EUA).
+- A encriptação gera conjunto de caractéres identificador de 40 dígitos.
+- É uma forma curta de representar um arquivo.
+
+OBJETOS INTERNOS DO GIT:
+Blobs / Trees / Commits
+Blobs -> bloco básico da composição
+Tree -> armazena os Blobs. A árvore vai ser responsável por montar toda a estrutura e onde está localizado os arquivos. Ela pode apontar para os Blobbs ou para outras Árvores.
+Commit -> é o objeto que vai juntar tudo, que vai dar sentido pra alteração que você está fazendo.
+
+CHAVE SSH:
+É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas.

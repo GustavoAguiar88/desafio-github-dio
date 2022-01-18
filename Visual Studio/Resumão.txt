@@ -1,0 +1,16 @@
+
+VISUAL STUDIO:
+A depuração é feita quando é colocado um breakpoint no código e ele é executado.
+É possível navegar pelo código no depurado usando comandos. A inspeção deve ser na depuração.
+
+INTEGRAÇÃO COM O GIT E GITHUB:
+- Podemos clonar um repositório do Github colocando a URL.
+- Caso o projeto não esteja associado ao GIT, podemos criar um repositório novo no menu Git -> Criar um Repositório Git.
+- Depois de clonar ou criar um repositório, é possível acessá-lo no menu Git -> Repositórios Locais.
+
+TESTES:
+Para criar um teste, devemos clicar no método que vai ser testado com o botão direito e então em criar testes de unidade. Padrão AAA
+- A Seção Organizar (Arrange) de um método de teste de unidade inicializa os objetos e define o valor dos dados que são
+passados para o método sendo testado.
+- A Seção Agir (Act) invoca o método sendo testado com parâmetros organizados.
+- A Seção Declarar (Assert) verifica se a ação do método em teste se comporta conforme o esperado.
